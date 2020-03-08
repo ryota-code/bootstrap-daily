@@ -1,4 +1,6 @@
-.top{
-  background-image: url(../img/main-vsual-nontitle.png);
+@charset "UTF-8";
+
+.top {
+  background-image: url(../img/top.png);
   background-size: cover;
 }
