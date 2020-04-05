@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+/* オリジナルフォントを使いたい場合、@font-faceでフォントファイルを読み込みます */
+@font-face {
+  font-family: 'ROLAchan';
+  src: url(./fonts/ROLAchan-Regular.otf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: ROLAchan;
+}
+
 .top {
   background-image: url(../img/top.png);
   background-size: cover;
