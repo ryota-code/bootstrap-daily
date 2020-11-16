@@ -1,19 +1,8 @@
 @charset "UTF-8";
-/* オリジナルフォントを使いたい場合、@font-faceでフォントファイルを読み込みます */
 
-@font-face {
-  /* font-familyで指定するための名前をつけます。名前は基本的にファイル名と同じにするのがマナーです */
-  font-family: 'ROLAchan-Regular';
-  /* フォントファイルのパスを指定します */
-  src: url(./fonts/ROLAchan-Regular.otf);
-}
+.top{
 
-/* 先ほどつけた名前でfont-familyを指定します。 */
-h1, h2, h3, h4, h5, h6 {
-  font-family: ROLAchan-Regular;
-}
+    background-image: url(../img/top.png);
+    background-size: cover;
 
-.top {
-  background-image: url(../img/top.png);
-  background-size: cover;
 }
